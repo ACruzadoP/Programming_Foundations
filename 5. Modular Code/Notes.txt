@@ -1,0 +1,84 @@
+
+
+Python
+-------
+
+    Check the following exercises to know how functions are made in Python:
+        Exercise Files\Chap05
+
+
+
+
+Java
+------
+
+    void hello() {
+        System.out.println("Hi fiends!");
+    }
+
+
+
+Kotlin
+-------
+
+    fun checkGrade(grade: String) {
+        if (grade == "A")
+            println("You aced the class!")
+    }
+
+
+
+Ruby
+-----
+
+    def calculate_check(hourly_rate)
+        hourly_rate * 40
+    end
+
+    puts "You made #{calculate_check(32)} this week."
+
+
+
+
+C++
+----
+
+    #include <iostream>
+    using namespace std;
+
+
+    int withdrawMoney(int currentBalance, int amount){
+        if (currentBalance >= amount){
+            currentBalance = currentBalance - amount
+        }
+        return currentBalance
+    }
+
+    int main () {
+        int balance;
+
+        balance = withdrawMoney(100,50);
+        cout << "Balance is: "<<balance << endl;
+
+        return 0;
+    }
+
+
+
+
+
+JavaScript
+-------------
+
+    function isEven(number){
+        if (number % 2 == 0)
+            return "Yes";
+        else
+            return "No";
+    }
+
+    console.log("Is 2 even?");
+    console.log(isEven(2));
+
+    console.log("Is 3 even?");
+    console.log(isEven(3));
