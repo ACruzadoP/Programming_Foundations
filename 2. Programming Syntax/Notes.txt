@@ -22,6 +22,7 @@ Installing Python on Mac: Not needed, as it comes by default. Maybe it needs to 
     Or "python4" if the 4th version was the one installed. 
 
         *Or maybe it's always "python3" to initiate python. 
+        *On Windows, I need go with "python" apparently. 
 
 
 

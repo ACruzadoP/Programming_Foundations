@@ -1,0 +1,63 @@
+Java
+------
+
+    String cookie = "Sugar";
+    System.out.println(cookie);
+
+        This will work but if we then aggregate the following:
+
+    cookie = true;
+    System.out.println(cookie);
+
+        It will fail as, in Java, we cannot re-assign a different Data type to the same variable. (cannot convert from boolean to String)
+
+
+
+Python
+-------
+
+        Same example as before would work, as we don't need to declare a variable and the Data type will be automatically assigned, as re-assigned if needed. 
+
+    cookies = 'Sugar'
+    print(cookies)
+    print(type(cookies))
+
+    cookies = 1
+    print(cookies)
+    print(type(cookies))
+
+
+
+
+When declaring a new variable, keep in mind the following:
+    1. Names can contain letters, numbers and underscores. But they cannot start with a number. 
+    2. Names don't allow spaces. 
+    3. Names are case-sensitive.
+    4. Names cannot be keywords. To be checked later, but the following will retrieve them all for Python. 
+        import keyword
+        print(keyword.kwlist)
+
+            Outcome: ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 
+            'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 
+            'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 
+            'with', 'yield']
+
+
+
+Numeric operators
+---------------------
+
+    + = Suma
+    * = Multiplicación
+    ** = Exponente
+    / = División
+    // = División con resultado entero 
+    % = Resto de una división (5 % 3 = 2) - The remainder
+
+
+
+
+Other Data types
+-------------------
+
+    Float - Any number with a decimal point
