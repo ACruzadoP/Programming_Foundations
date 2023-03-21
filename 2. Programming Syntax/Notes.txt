@@ -1,0 +1,34 @@
+Most popular languages:
+    - Java
+    - Python - easier to learn
+    - JS - easier to learn
+    - C++
+    - C#
+
+
+In this course, Python will be the one to be used. 
+
+
+
+Installing Python on Mac: Not needed, as it comes by default. Maybe it needs to be updated but that's it. 
+-------------------------
+
+    "python" should retrieve the python version that's installed. Also, it should open python in the sense that Terminal will be ready 
+    for us to start sending python commands. 
+    "exit()" should allow us to exit python 
+
+    *IMPORTANT: After having installed the latest version, 
+    we may need to switch to "python3", instead of "python". 
+    Or "python4" if the 4th version was the one installed. 
+
+
+
+Feel free to check the following installation guide:
+"Exercise Files\Chap02\Troubleshooting Installation Issues.docx"
+
+
+
+If we want to use python from VS Code, we need to install its Extension and then...
+
+    1. On Mac, we go into the command palette: cmd+shift+p / and then, "Python: Select Interpreter" / Select the very latest version that we have installed. 
+    2. On Windows, 
