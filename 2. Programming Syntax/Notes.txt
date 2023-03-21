@@ -21,6 +21,8 @@ Installing Python on Mac: Not needed, as it comes by default. Maybe it needs to 
     we may need to switch to "python3", instead of "python". 
     Or "python4" if the 4th version was the one installed. 
 
+        *Or maybe it's always "python3" to initiate python. 
+
 
 
 Feel free to check the following installation guide:
@@ -29,6 +31,22 @@ Feel free to check the following installation guide:
 
 
 If we want to use python from VS Code, we need to install its Extension and then...
+---------------------------------------
 
     1. On Mac, we go into the command palette: cmd+shift+p / and then, "Python: Select Interpreter" / Select the very latest version that we have installed. 
-    2. On Windows, 
+    2. On Windows, we go to the command palette: ctrl+shift+p / and then, same as on Mac 
+
+        Once the interpreter was selected, we can go to the script and right-click, "Run Python File in Terminal"
+        Also, we can do "Run Selection/Line in Python Terminal", this will only run the selection/line and will keep Python opened in the Terminal for us to keep on doing things. 
+    
+
+
+
+Error Categories
+--------------------------
+
+    1. Syntax - language rules broken -> 4 (2 + 3)
+    2. Runtime - unable to execute -> (5/0)
+    3. Semantic - unexpected output
+
+
