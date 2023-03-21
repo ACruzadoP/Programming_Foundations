@@ -1,0 +1,28 @@
+
+When saving the source code, the extensions for each programming language are as follow:
+- Python: ".py"
+- JavaScript: ".js"
+- Perl: ".pl"
+- Kotlin: ".kt"
+
+
+
+3 ways of turning the code into execution:
+- Compile
+- Interpret
+- Both
+
+        *This means that we will have three separated groups of languages:
+            1. Compiled languages: C, C++ and Objective-C 
+            2. Interpreted languages: PHP and JavaScript
+            3. Combination: Java, C# and Python
+
+
+
+IDE: Integrated Development Environments
+    - XCode: for iOS applications
+    - Visual Studio Code: for the rest. It has "IntelliSense", which is a smart way of referring to the Autocompletion feature. 
+    - Android Studio: for... Android
+    - RubyMine: Seems to be for Ruby on/and Rails, or just Ruby (not sure if they are the same thing)
+
+
