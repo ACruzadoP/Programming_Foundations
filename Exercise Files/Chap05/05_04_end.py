@@ -5,6 +5,8 @@ def withdraw_money(current_balance, amount):
 
 balance = withdraw_money(100, 80)
 
+print(balance)
+
 if (balance <= 50):
     print("We need to make a deposit")
 else:
